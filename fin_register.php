@@ -8,7 +8,7 @@
 
 <body>
     <form action="" method="post" name="Login_Form">
-        <table width="400" height="350" border="0" align="center" cellpadding="5" cellspacing="1" class="Table">
+        <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
                 <td colspan="2" align="left">
                     <h2>Register for SaleEstate</h2>
