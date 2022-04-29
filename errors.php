@@ -1,10 +1,11 @@
-<?php if(count($errors) > 0?>
+<?php if(count($errors) > 0?>{
 
 	<div>
-		<?php foreach ($errors as $error : ?>) {
-			<p><?php echo $error ?></p>
+		<?= foreach ($errors as $error : ?>) {
+			<p><?= echo $error ?></p>
 
-		<?php endforeach ?>
+		<?= endforeach ?>
 		}
 	</div>
-	<?php endif ?>
+	<?= endif ?>
+}
