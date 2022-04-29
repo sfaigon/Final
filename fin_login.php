@@ -11,7 +11,7 @@
         <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
                 <td colspan="2" align="left">
-                    <h2>Login to SaleEstate</h2>
+                    <h2>Login to <span style="color:#33cc33">Sale</span><span style="color:#cccccc">Estate</span></h2>
                 </td>
             </tr>
             <tr>
