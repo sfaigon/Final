@@ -12,6 +12,7 @@
             <tr>
                 <td colspan="2" align="left">
                     <h2>Register for <span style="color:#33cc33">Sale</span><span style="color:#cccccc">Estate</span></h2>
+                    <img src="fin_logo.png" width="400" height="180">
                 </td>
             </tr>
             <tr>
