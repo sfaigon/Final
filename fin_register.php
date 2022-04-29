@@ -10,8 +10,8 @@
     <form action="" method="post" name="Login_Form">
         <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
-                <td colspan="2" align="left">
-                    <h2>Register for <span style="color:#33cc33">Sale</span><span style="color:#cccccc">Estate</span></h2>
+                <td colspan="2" align="center">
+                    <h2>Register</h2>
                     <img src="fin_logo.png" width="400" height="180">
                 </td>
             </tr>
