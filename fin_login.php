@@ -10,9 +10,9 @@
     <form action="" method="post" name="Login_Form">
         <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
-                <td colspan="2" align="center">
-                    <h2>Login</h2>
+                <td colspan="2" align="left">
                     <img src="fin_logo.png" width="400" height="180">
+                    <h2>Login</h2>
                 </td>
             </tr>
             <tr>
