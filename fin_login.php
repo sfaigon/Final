@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form action="" method="post" name="Login_Form">
+    <form action="fin_index.php" method="post" name="Login_Form">
         <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
                 <td colspan="2" align="left">
