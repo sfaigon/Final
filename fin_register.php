@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>SaleEstate Register Page</title>
+    <title>SaleEstate Register</title>
     <link href="fin_style.css" rel="stylesheet">
 </head>
 
 <body>
-    <form action="" method="post" name="Login_Form">
+    <form action="fin_index.php" method="post">
         <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
                 <td colspan="2" align="left">
-                    <img src="fin_logo.png" width="400" height="180">
-                    <h2>Register</h2>
+					<img src="fin_logo.png" width="400" height="180">
+					<h2>Register</h2>
                 </td>
             </tr>
             <tr>
@@ -24,7 +24,7 @@
             </tr>
             <tr>
              
-                <td><input name="Submit" type="submit" value="Signup" class="Button3"></td>
+                <td><input name="Submit" type="submit" value="Sign Up" class="Button3"></td>
             </tr>
             <tr>
               
