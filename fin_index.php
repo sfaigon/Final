@@ -1,32 +1,31 @@
-<?php 
-session_start();
-
-if(isset($_SESSION['username'])){
-	$_SESSION['msg'] = "You must log in first to view this page";
-	header("location : fin_login.php");	
-
-}
-if (isset($_GET['logout'])){
-
-	session_destroy();
-	unset($_SESSION['username']);
-	header("location : fin_login.php");
-
-}
-
-?>
-
 <!doctype html>
 
 <html>
 
 <head lang="en">
 	<meta charset="UTF-8">
-	<title>HomePage</title>
+	<title>Buyer HomePage</title>
 	<link href="fin_style.css" rel="stylesheet">
 </head>
-<body>
-		<h1>HOMEPAGE</h1>
+<body style="background-color:white">
 
+    <header>
+        <div class="inner">
+            <div class="logo">
+                <div>
+                    <a href="fin_about.php" title="About SaleEstate"><img src="fin_logo.png" alt="SaleEstate logo" width="170" height="60"></a>
+                </div>
+            </div>
+            <nav>
+			    <li><span>Hello Buyer <?=$_POST['Username']?></span></li>
+                <li><span><a href="fin_register.php" class="button">Logout</a></span></li>
+		    </nav>
+	    </div>
+	</header>
+
+<main>
+		<h1>BUYER HOMEPAGE</h1>
+		<a href="ViewHomes.php">View Homes</a>
+</main>
 </body>
 </html>
