@@ -13,7 +13,7 @@
         <div class="inner">
             <div class="logo">
                 <div>
-                    <a href="fin_about.php" title="About SaleEstate"><img src="fin_logo.png" alt="SaleEstate logo" width="170" height="60"></a>
+                    <a href="fin_aboutt.php" title="About SaleEstate"><img src="fin_logo.png" alt="SaleEstate logo" width="170" height="60"></a>
                 </div>
             </div>
             <nav>
