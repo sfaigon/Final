@@ -1,5 +1,6 @@
 <?php session_start();
 include("fin_server.php");
+include("addbuyer.php");
 
 $username = isset($_POST['Username']) ? $_POST['Username'] : '';
 $password = isset($_POST['Password']) ? $_POST['Password'] : '';
