@@ -46,7 +46,7 @@ else if (isset($_POST['Username']) && isset($_POST['Password']))
 
 <head>
     <title>SaleEstate Register</title>
-    <link href="fin_style.css" rel="stylesheet">
+    <link href="fin_style3.css" rel="stylesheet">
 </head>
 
 <body>
