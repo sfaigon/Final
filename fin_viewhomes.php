@@ -1,4 +1,3 @@
-
 <!doctype html>
 
 <html>
@@ -6,10 +5,10 @@
 <head lang="en">
 	<meta charset="UTF-8">
 	<title>View Homes</title>
-	<link rel="stylesheet" href="fin_style.css">
+	<link rel="stylesheet" href="fin_style3.css">
 </head>
 <body>
-	<div class="center">
+    <div class="center">
       <img src="fin_logo.png" class="center">  
     </div>
   
@@ -69,70 +68,8 @@
          
                 <thead>
                     <div>
-
-<div class="center">
-
-            <div class='container'>
-                <div class='left' >
-                    <img src='9.png' class='house'>
-                </div>
-                <div class='right'>
-                    <p> <h3> Address: 1234 Easy Street Atlanta Ga</h3> </p>
-                    <p> Price: 249000</p>
-                    <p> Year Built: 1962 </p>
-                    <p> Square Footage: 1423  </p>
-                    <p> Description of Home: A nice cozy house with 2 full bathrooms and three beds as well as a spacious kitchen</p>
-                </div>
-            </div>
-            <div class='container'>
-                <div class='left' >
-                    <img src='8.png' class='house'>
-                </div>
-                <div class='right'>
-                    <p> <h3> Address: 4567 Not So Easy Street Atlanta Ga</h3> </p>
-                    <p> Price: 99000</p>
-                    <p> Year Built: 1923 </p>
-                    <p> Square Footage: 962  </p>
-                    <p> Description of Home: Small not so great house that is a good fix-uper</p>
-                </div>
-            </div>
-            <div class='container'>
-                <div class='left' >
-                    <img src='3.png' class='house'>
-                </div>
-                <div class='right'>
-                    <p> <h3> Address: 1584 Hard Street Midtown Ga</h3> </p>
-                    <p> Price: 165000</p>
-                    <p> Year Built: 1973 </p>
-                    <p> Square Footage: 1623  </p>
-                    <p> Description of Home: Small home but nice location</p>
-                </div>
-            </div>
-            <div class='container'>
-                <div class='left' >
-                    <img src='2.png' class='house'>
-                </div>
-                <div class='right'>
-                    <p> <h3> Address: 4236 So much work Lane Forest Point Ga</h3> </p>
-                    <p> Price: 650000</p>
-                    <p> Year Built: 2010 </p>
-                    <p> Square Footage: 6300  </p>
-                    <p> Description of Home: Grand Beautiful House on the outskirts of Atlanta</p>
-                </div>
-            </div>
-            <div class='container'>
-                <div class='left' >
-                    <img src='8.png' class='house'>
-                </div>
-                <div class='right'>
-                    <p> <h3> Address: 1448 Brother Sister Street Lawrenceville Ga</h3> </p>
-                    <p> Price: 856000</p>
-                    <p> Year Built: 2018 </p>
-                    <p> Square Footage: 8530  </p>
-                    <p> Description of Home: Brand new house in Lawrenceville that is great for a large family or if you just really want space</p>
-                </div>
-            </div></div>
-                  </div>
+                    <?php include'fin_filter2.php'?>
+                    </div>
                 </thead>
     </div>        
     </div>
