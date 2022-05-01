@@ -5,7 +5,7 @@
 <head lang="en">
 	<meta charset="UTF-8">
 	<title>Buyer HomePage</title>
-	<link href="fin_style.css" rel="stylesheet">
+	<link href="fin_style3.css" rel="stylesheet">
 </head>
 <body>
 <div class="center">
