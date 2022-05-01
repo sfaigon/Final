@@ -50,7 +50,7 @@ else if (isset($_POST['Username']) && isset($_POST['Password']))
 </head>
 
 <body>
-    <form action="fin_index.php" method="post">
+    <form action="fin_buyerhome.php" method="post">
         <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
                 <td colspan="2" align="left">
