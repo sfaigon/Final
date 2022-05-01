@@ -50,7 +50,6 @@ header{
     width: 100vw;
     height: 105px;
     border-bottom: solid 1px rgba(16, 16, 16, 0.1);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 header .inner{
