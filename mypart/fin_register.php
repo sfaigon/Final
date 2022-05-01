@@ -1,3 +1,46 @@
+<?php session_start();
+include("fin_server.php");
+
+$username = isset($_POST['Username']) ? $_POST['Username'] : '';
+$password = isset($_POST['Password']) ? $_POST['Password'] : '';
+
+function findUser($username)
+{
+    $result = null;
+    foreach ($users as $user)
+    {
+        if ($user->username === $username)
+        {
+            $result = $user;
+        }
+    }
+    return $result;
+}
+
+$user = findUser($username);
+
+// if user does not exist and we have a valid username and password signs up
+if (!$user && $username && $password)
+{
+    $user = new User($username, $password);
+function addUser($user)
+{
+    if (findUser($user->username) == null)
+    {
+        array_push($users, $user);    
+    }
+}
+    addUser($user);
+    $_SESSION['Username'] = $user->username;
+    header("location:fin_index.php");
+    exit;
+}
+else if (isset($_POST['Username']) && isset($_POST['Password']))
+{
+    $msg="<span>Error Creating User</span>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
