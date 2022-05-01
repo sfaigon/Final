@@ -54,9 +54,8 @@ else if (isset($_POST['Username']) && isset($_POST['Password']))
         <table width="400" height="350" border="0" align="center" cellpadding="20" cellspacing="1" class="Table">
             <tr>
                 <td colspan="2" align="left">
-					<img src="fin_logo.png" width="400" height="160">
-					<h2>Register</h2>
-			                <p>Please fill this form to create an account</p>
+					<img src="fin_logo.png" width="400" height="180">
+			                <h2>Register</h2>
                 </td>
             </tr>
             <tr>
