@@ -59,15 +59,15 @@ else if (isset($_POST['Username']) && isset($_POST['Password']))
                 </td>
             </tr>
             <tr>
-                <td><input name="Username" type="text" class="Input" placeholder="Username" size="30"></td>
+                <td><input name="Username" type="text" placeholder="Username" size="30"></td>
             </tr>
             <tr>
                 
-                <td><input name="Password" type="password" class="Input" placeholder="Password" size="30"></td>
+                <td><input name="Password" type="password" placeholder="Password" size="30"></td>
             </tr>
             <tr>
              
-                <td><input name="Submit" type="submit" value="Sign Up" class="Button3"></td>
+                <td><input name="Submit" type="submit" value="Sign Up"></td>
             </tr>
             <tr>
               
