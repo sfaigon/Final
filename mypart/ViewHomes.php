@@ -8,22 +8,14 @@
 	<title>View Homes</title>
 	<link rel="stylesheet" href="fin_style.css">
 </head>
-<body style="background-color:white">
-<header>
-        <div class="inner">
-            <div class="logo">
-                <div>
-                    <img src="fin_logo.png" alt="SaleEstate logo" width="170" height="60">
-                </div>
-            </div>
-            <nav>
-                <li><span><a href="fin_index.php" class="button">Back</a></span></li>
-		    </nav>
-	    </div>
-	</header>
-	<main>
-	<h1>VIEW HOMES</h1>
+<body>
 	<div class="center">
+      <img src="fin_logo.png" class="center">  
+    </div>
+  
+	<div class="center">
+	<div>
+    
 	<form method="POST" action="">
                 
                     <label>Filters:</label>
@@ -74,81 +66,76 @@
                 
             </form>
             <br /><br />
-            <table class="table table-bordered">
-                <thead class="alert-info">
-                    <th>ID</th>
-                    <th>Address</th>
-                    <th>Price</th>
-                    <th>Year</th>
-                    <th>Footage</th>
-                    <th>Description</th>
-                    
-                </thead>
+         
                 <thead>
-                  
+                    <div>
 
 <div class="center">
-<tr>
-                    <td>1</td>
-                    <td>1234 Easy Street Atlanta Ga</td>
-                    <td>350000</td>
-                    <td>1942</td>
-                    <td>1000</td>
-                    <td>A nice large and spacious home with 3 beds and 3 baths</td>
-                </tr><tr>
-                    <td>2</td>
-                    <td>1590 Tree Summit Drive Albany Georgia</td>
-                    <td>40000</td>
-                    <td>1920</td>
-                    <td>300</td>
-                    <td>Small ruin house</td>
-                </tr><tr>
-                    <td>3</td>
-                    <td>1450 Fake House .com</td>
-                    <td>150000</td>
-                    <td>19940</td>
-                    <td>600</td>
-                    <td>smlall house</td>
-                </tr><tr>
-                    <td>4</td>
-                    <td>125134 sa fsfd</td>
-                    <td>145000</td>
-                    <td>1942</td>
-                    <td>1499</td>
-                    <td>house</td>
-                </tr><tr>
-                    <td>5</td>
-                    <td>125134 sa fsfd</td>
-                    <td>145000</td>
-                    <td>1942</td>
-                    <td>1499</td>
-                    <td>house</td>
-                </tr><tr>
-                    <td>6</td>
-                    <td>dfasfdas</td>
-                    <td>1456</td>
-                    <td>1232</td>
-                    <td>1234</td>
-                    <td>asdfasf</td>
-                </tr><tr>
-                    <td>7</td>
-                    <td></td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td></td>
-                </tr><tr>
-                    <td>8</td>
-                    <td></td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td></td>
-                </tr></div>
+
+            <div class='container'>
+                <div class='left' >
+                    <img src='9.png' class='house'>
+                </div>
+                <div class='right'>
+                    <p> <h3> Address: 1234 Easy Street Atlanta Ga</h3> </p>
+                    <p> Price: 249000</p>
+                    <p> Year Built: 1962 </p>
+                    <p> Square Footage: 1423  </p>
+                    <p> Description of Home: A nice cozy house with 2 full bathrooms and three beds as well as a spacious kitchen</p>
+                </div>
+            </div>
+            <div class='container'>
+                <div class='left' >
+                    <img src='8.png' class='house'>
+                </div>
+                <div class='right'>
+                    <p> <h3> Address: 4567 Not So Easy Street Atlanta Ga</h3> </p>
+                    <p> Price: 99000</p>
+                    <p> Year Built: 1923 </p>
+                    <p> Square Footage: 962  </p>
+                    <p> Description of Home: Small not so great house that is a good fix-uper</p>
+                </div>
+            </div>
+            <div class='container'>
+                <div class='left' >
+                    <img src='3.png' class='house'>
+                </div>
+                <div class='right'>
+                    <p> <h3> Address: 1584 Hard Street Midtown Ga</h3> </p>
+                    <p> Price: 165000</p>
+                    <p> Year Built: 1973 </p>
+                    <p> Square Footage: 1623  </p>
+                    <p> Description of Home: Small home but nice location</p>
+                </div>
+            </div>
+            <div class='container'>
+                <div class='left' >
+                    <img src='2.png' class='house'>
+                </div>
+                <div class='right'>
+                    <p> <h3> Address: 4236 So much work Lane Forest Point Ga</h3> </p>
+                    <p> Price: 650000</p>
+                    <p> Year Built: 2010 </p>
+                    <p> Square Footage: 6300  </p>
+                    <p> Description of Home: Grand Beautiful House on the outskirts of Atlanta</p>
+                </div>
+            </div>
+            <div class='container'>
+                <div class='left' >
+                    <img src='8.png' class='house'>
+                </div>
+                <div class='right'>
+                    <p> <h3> Address: 1448 Brother Sister Street Lawrenceville Ga</h3> </p>
+                    <p> Price: 856000</p>
+                    <p> Year Built: 2018 </p>
+                    <p> Square Footage: 8530  </p>
+                    <p> Description of Home: Brand new house in Lawrenceville that is great for a large family or if you just really want space</p>
+                </div>
+            </div></div>
+                  </div>
                 </thead>
-            </table>
+    </div>        
     </div>
-	</main>
 </body>
 
 </html>
