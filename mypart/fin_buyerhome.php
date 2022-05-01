@@ -13,7 +13,7 @@
 </div>
 <div class="center">
 		<div><h1>BUYER HOMEPAGE</h1></div>
-		<div><a href="ViewHomes.php">View Homes</a></div>
+		<div><a href="fin_viewhomes.php">View Homes</a></div>
 </div>
 </body>
 </html>
